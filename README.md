@@ -1,5 +1,11 @@
 # 🔐 Face Recognition App (Challenge IoT)
 
+## 🫂Integrantes do grupo 
+Nome: Pedro Augusto Carneiro Barone Bomfim - RM: 99781
+Nome: João Pedro de Albuquerque Oliveira - RM: 551579
+Nome: Matheus Augusto Santos Rego - RM:551466
+Nome: Ian Cancian Nachtergaele - RM: 98387
+
 ## 🎯 Objetivo
 Este projeto demonstra o uso de **Visão Computacional** para:
 - Capturar imagens do rosto do usuário.
@@ -10,6 +16,11 @@ A ideia de contexto é um **assessor de investimentos** que usa o rosto como **s
 
 ---
 
+
+## 📹 Vídeo Demonstrativo
+Você pode assistir ao vídeo explicativo do projeto clicando [aqui](https://link-do-seu-video.com).
+
+---
 ## ⚙️ Dependências
 Antes de rodar, instale o Python e as bibliotecas necessárias:
 

@@ -17,7 +17,7 @@ Antes de rodar, instale o Python e as bibliotecas necessárias:
 pip install opencv-python opencv-contrib-python numpy
 ```
 
-▶️ Execução
+## ▶️ Execução
 
 Abra a pasta face_recognition_app no terminal do VS Code e siga os passos:
 
@@ -46,7 +46,7 @@ Abre a câmera e tenta identificar o rosto com base no modelo treinado.
 
 python recognize_face.py
 
-⚖️ Nota ética
+## ⚖️ Nota ética
 
 O reconhecimento facial é uma tecnologia sensível, que pode trazer implicações de privacidade e segurança.
 Este projeto é exclusivamente educacional e não deve ser usado em ambientes de produção sem:
@@ -57,7 +57,7 @@ Armazenamento seguro de imagens e modelos.
 
 Conformidade com legislações de proteção de dados (LGPD/GDPR).
 
-📌 Observações
+## 📌 Observações
 
 Todas as imagens ficam salvas localmente na pasta dataset/.
 

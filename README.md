@@ -18,7 +18,7 @@ A ideia de contexto é um **assessor de investimentos** que usa o rosto como **s
 
 
 ## 📹 Vídeo Demonstrativo
-Você pode assistir ao vídeo explicativo do projeto clicando [aqui](https://link-do-seu-video.com).
+Você pode assistir ao vídeo explicativo do projeto clicando [aqui](https://youtu.be/__NlMwX6fv4).
 
 ---
 ## ⚙️ Dependências

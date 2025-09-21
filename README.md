@@ -15,3 +15,80 @@ Antes de rodar, instale o Python e as bibliotecas necessárias:
 
 ```bash
 pip install opencv-python opencv-contrib-python numpy
+```
+
+▶️ Execução
+
+Abra a pasta face_recognition_app no terminal do VS Code e siga os passos:
+
+1. Capturar imagens
+
+Captura fotos do rosto e salva em dataset/.
+
+python capture_images.py --name "SeuNome" --max 60
+
+
+Parâmetros:
+
+--name: Nome da pessoa (usado como ID no treino).
+
+--max: Número de imagens a capturar (padrão: 30).
+
+2. Treinar o modelo
+
+Gera o arquivo trainer.yml com os dados do reconhecimento facial.
+
+python train_recognizer.py
+
+3. Reconhecimento em tempo real
+
+Abre a câmera e tenta identificar o rosto com base no modelo treinado.
+
+python recognize_face.py
+
+⚖️ Nota ética
+
+O reconhecimento facial é uma tecnologia sensível, que pode trazer implicações de privacidade e segurança.
+Este projeto é exclusivamente educacional e não deve ser usado em ambientes de produção sem:
+
+Consentimento explícito dos usuários.
+
+Armazenamento seguro de imagens e modelos.
+
+Conformidade com legislações de proteção de dados (LGPD/GDPR).
+
+📌 Observações
+
+Todas as imagens ficam salvas localmente na pasta dataset/.
+
+O modelo treinado fica no arquivo trainer.yml.
+
+O projeto não envia dados para a internet, roda apenas na máquina local.
+
+
+---
+
+## 📄 .gitignore
+```gitignore
+# Arquivos Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual (se usar venv)
+venv/
+env/
+
+# Arquivos temporários
+*.log
+
+# Arquivos do Windows/macOS
+.DS_Store
+Thumbs.db
+
+# Arquivo de treino gerado
+trainer.yml
+
+# Dataset (opcional - se não quiser subir as imagens reais)
+dataset/

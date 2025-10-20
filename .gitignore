@@ -1,0 +1,5 @@
+dataset
+labels.pkl
+modelo_lbph.yml
+run_test.bat
+clientes.json
